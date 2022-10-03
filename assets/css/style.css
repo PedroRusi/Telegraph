@@ -1,0 +1,359 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #00194A;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    color: #00194A;
+    opacity: 0.8;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    padding: 50px 0px;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo::before {
+    content: '';
+    background: url('../img/Telegraphlogo.svg') no-repeat center center;
+    display: block;
+    width: 90px;
+    height: 23px;
+}
+.btn {
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.header__btn {
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 20px;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FF0043;
+    color: #FF0043
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro__warp {
+    width: 1175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__btn:active {
+    padding: 13px 17px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.intro__block {
+    width: 552px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro__title {
+    font-size: 60px;
+    line-height: 85px;  
+}
+.intro__btn {
+    border-radius: 30px;
+    padding: 20px 50px;
+    width: 175px;
+}
+.intro__text {
+    font-size: 18px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+}
+.intro__img {
+    height: 100%;
+    object-fit: cover;
+    margin-right: -100px;
+}
+.intro__img img {
+    width: 655px;
+    height: 604px;
+}
+.os {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+.os__list {
+display: flex;
+align-items: center;
+}
+.os__column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 272px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+.os__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 212px;
+}
+.os__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00194A;
+}
+.os__link {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.os__link::after {
+    content: '';
+    background: url(../img/download_icon1.svg);
+    width: 21px;
+    height: 20px;
+    display: block;
+
+}
+.simple {
+    padding-bottom: 50px;
+}
+.simple__warp {
+    margin-left: -93px;
+    display: flex;
+    align-items: center;  
+}
+.simple__img {
+}
+.simple__block {
+    width: 466px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.simple__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.simple__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.community {
+    padding-bottom: 100px;
+}
+.community__warp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.community__block {
+    width: 466px;
+height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.community__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.community__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.community__content {
+    width: 550px;
+    height: 528px;
+    display: flex;
+    justify-content: space-between;
+}
+.community__block__card {
+    width: 260px;
+    height: 249px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-bottom: 30px;
+}
+.community__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 189px;
+}
+.card__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.cart__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+}
+.card__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chat {
+    margin-bottom: 100px;
+}
+.chat__warp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat__img {
+    margin-right: 64px;
+}
+.chat__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 466px;
+    height: 242px;
+    margin-bottom: 50px;
+}
+.chat__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.chat__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.app__warp {
+    width: 1139px;
+    height: 346px;
+    background: #00194A;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app__block {
+    width: 580px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.app__title {
+    text-align: center;
+    font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #fff;
+}
+.app__text {
+    text-align: center;
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color:  #fff;
+}
+.app__btn {
+    background: #FF0043;
+border-radius: 30px;
+padding: 20px 50px;
+}
+.footer {
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00194A;
+}
+.footer__list {
+    display: flex;
+    align-items: center;
+}
+.footer__item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 30px;
+}
+.footer__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
